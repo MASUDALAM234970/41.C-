@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+class student
+{
+      public:       string name;
+             int id;
+             int roll;
+             double Gpa;
+
+
+
+};
+
+int main()
+{
+       student student1, student2;
+       student1.name="MD.MASUD ALAM";
+       student1.id=101;
+       student1.roll=41;
+       student1.Gpa=3.50;
+       cout<<"NAME "<<student1.name<<endl;
+       cout<<"Id "<<student1.id<<endl;
+       cout<<"ROLL "<<student1.roll<<endl;
+       cout<<"GPA "<<student1.Gpa<<endl;
+        cout<<"____________________________"<<endl;
+        student2.name="MS.MISS MONIKA";
+       student2.id=102;
+       student2.roll=410;
+       student2.Gpa=4.50;
+       cout<<"NAME "+student2.name<<endl;
+       cout<<"Id "<<student2.id<<endl;
+       cout<<"ROLL "<<student2.roll<<endl;
+       cout<<"GPA "<<student2.Gpa<<endl;
+
+    cout << "Hello world!" << endl;
+    return 0;
+}
