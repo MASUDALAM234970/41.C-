@@ -1,0 +1,51 @@
+#include <iostream>
+
+using namespace std;
+
+class student
+{
+      public:       string name;
+                    int id;
+                    int roll;
+                    double Gpa;
+
+             void display()
+             {
+                    cout<<"NAME "<<name<<endl;
+                    cout<<"Id "<<id<<endl;
+                    cout<<"ROLL "<<roll<<endl;
+                    cout<<"GPA "<<Gpa<<endl;
+                    cout<<"____________________________"<<endl;
+             }
+             student(string n, int i, int r ,double g )
+
+             {
+
+                   name=n;
+                     id=i;
+                     roll=r;
+                    Gpa=g;
+
+             }
+
+                student()
+                {
+                    cout<<"Default constructor"<<endl;
+                }
+
+
+};
+
+int main()
+{
+
+       student student1("MISS. MONIKA ",102,410,4.50);
+       student1.display();
+       student student2("MD. MASUD ALAM ",101,41,3.50);
+
+        student2.display();
+             student ob;
+                cout<<"____________________________"<<endl;
+    cout << "Hello world!" << endl;
+    return 0;
+}
